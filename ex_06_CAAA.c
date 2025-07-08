@@ -14,24 +14,24 @@ int main(){
         
         if (media <= 3)
         {
-            printf("Aluno %d: Reprovado\n", i);
+            printf("Aluno %d: Reprovado \n", i);
             contR++;
 
         } 
         if ((media>3)&&(media<7)){
-            printf("Aluno %d: Exame\n", i);
+            printf("Aluno %d: Exame \n", i);
             contE++;
 
         }
         if (media>=7){
-            printf("Aluno %d: Aprovado\n", i);
+            printf("Aluno %d: Aprovado \n", i);
             contA++;
         }
     }
 
-    printf("Total Aprovados: %d\n"
-            "Total Exame: %d\n"
-            "Total Reprovados: %d\n", contA, contE, contR);
+    printf("Total Aprovados: %d \n"
+            "Total Exame: %d \n"
+            "Total Reprovados: %d \n", contA, contE, contR);
     
     return 0;
 
